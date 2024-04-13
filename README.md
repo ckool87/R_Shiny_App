@@ -1,1 +1,3 @@
 # R_Shiny_App
+
+This app helps users to identify ways they can reduce their carbon foorprint and locate green homes to purchase. Through the usage of the app, users will be able to create an action plan and help make their habits and home more efficient and less harmful to the environment. There is a glossary with information on green updates that can be done, as well as a calculator for carbon footprints based on housing, car usage, and other factors. There is linear regression on existing housing to help determine factors that relate to home prices, and help determine which sustainable actions can be done to increase home price.
