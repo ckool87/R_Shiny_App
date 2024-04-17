@@ -1,0 +1,133 @@
+--- 
+
+title: "Team 8 Project Overview" 
+
+author: "Justine Azigi, William Fink, Clayton Kool, Frederick Mensah" 
+
+date: "2024-04-12" 
+
+output: 
+
+  word_document: default 
+
+  pdf_document: default 
+
+--- 
+
+  
+
+```{r setup, include=FALSE} 
+
+knitr::opts_chunk$set(echo = TRUE) 
+
+``` 
+
+  
+
+# Convert Residential Houses into Sustainable Homes Using AI 
+
+ 
+
+The Green Expectations Calculator UI can be found [here](https://liam142857.shinyapps.io/GreenExpectationsUI/) 
+
+ 
+
+The github with all relevant files can be found [here]() 
+
+  
+
+## a) Motivation and Overview 
+
+  
+
+GreenifiAI.com is the website for Green Expectations LLC. This company is a brokerage with emphasis on software development with AI tools and methods. Green Expectations connects buyers and sellers with sustainability resources. This works by providing a carbon footprint calculator to aid homeowners with sustainability resources. There is also a blog with sustainability information and featured properties. The overarching goal of Green Expectations is to help those with an interest in sustainability get started, connect with others, calculate their footprint, and learn what may be effective for their circumstances 
+
+  
+
+  
+
+## b) Related Work 
+
+  
+
+The following sites were used as inspiration for our work 
+
+  
+
+[Forbes](https://www.forbes.com/sites/jodiecook/2024/03/01/chatgpt-prompts-create-compelling-content-and-captivate-your-audience/?sh=157e83211093) 
+
+  
+
+[Kayak](https://www.kayak.com/ask) 
+
+  
+
+[Yahoo](https://www.yahoo.com/tech/ceo-says-tried-hire-ai-182817278.html?guccounter=2) 
+
+  
+
+[zdnet](https://www.zdnet.com/article/how-to-write-better-chatgpt-prompts-in-5-steps/) 
+
+  
+
+[norahsakal](https://norahsakal.com/blog/chatgpt-product-recommendation-embeddings/) 
+
+  
+
+We also utilized a wide variety of R skills from class discussion. The core of this project was a shiny app that users could interface with for inputting data. Data visualization skills were also essential for displaying user input for the Data Analysis tab. The API topic was instrumental in learning how to connect the OpenAI API to the shiny app 
+
+  
+
+## c) Initial Questions 
+
+  
+
+We were initially trying to answer how homeowners and prospective buyers would help their housing become better for the environment. Through the project we added green actions for the user as well. The addition of user actions to decrease carbon footprint and reduce energy costs helps the user form a larger picture as to how they can reduce costs and be more efficient in their energy use. 
+
+We investigated methods of looking at housing and sustainability data and determine actions that may be beneficial. There were a variety of possible avenues for sustainability and the main goals we established were to calculate carbon footprint for the user, check regression for various factors, and present information that could be used for sustainability. Ultimately there are a number of changes to housing and habits that a user can take in order to help the environment and generate returns on investments in green innovations. Over time there will also be greater collaboration and more information available that people can use to help make their home efficient. 
+
+ 
+
+ 
+
+## d) Data 
+
+Files were provided containing a wide variety of information related to house sales. The main data columns of interest was the house price and square footage. 
+
+  
+
+## e) Exploratory Data Analysis 
+
+ 
+
+What are the different statistical methods you considered?  
+
+Justify the decisions you made, and show any major changes to your ideas.  
+
+How did you reach these conclusions?  
+
+You should use this section to motivate the statistical analyses that you decided to use in the next section.**  
+
+  
+
+  
+
+  
+
+## f) Data Analysis 
+
+  
+
+We used a linear regression model to estimate home price based on square footage. There was very little in the way of statistical analysis for this project as the main purpose of this site was to calculate carbon footprint and make sustainability suggestions. 
+
+ 
+
+  
+
+## g) Narrative and Summary 
+
+  
+
+Calculator 
+
+The calculator tab was derived from the EPA calculations given to determine the carbon footprint and any savings that can result from green actions such as using less heat and switching appliances tyo more efficient versions. The UI asks relevant questions from the user that will determine what carbon footprint the user has in their daily life and in their habits. There are also questions to determine a user's willingness to make certain changes to decrease their carbon footprint or lower their energy costs. The formulas are currently in debugging in order to correctly use inputs and send outputs to the UI for the user. Next steps are to continue to trace through the reactives to determine which inputs are being given to the formulas and which are not. The outputs are then sent to the main UI for debugging with extra description and intermediate values. The reactives are added one at a time in order to maintain functionality of the app and minimize complications. Once the reactives are working properly with the user's input the outputs will be used in visuals helping the user to develop an action plan to reduce their carbon footprint. Together with the calculator, regression data, and glossary of green actions, the user can identify ways they can "greenify" their life and their housing and help the planet. 
